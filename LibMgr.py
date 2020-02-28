@@ -96,6 +96,7 @@ attachFilePathList = [logInfFilePath,logErrFilePath] # list used when we are wri
 lstRefreshed = []   # list for feature class names that get refreshed for notification
 sListRefreshed = ''
 
+
 try:
     metaConnStr = 'DRIVER={SQL Server};SERVER=' + metaServer + ';DATABASE=' + metaDb + ';Trusted_Connection=yes'
 
